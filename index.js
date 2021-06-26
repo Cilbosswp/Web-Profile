@@ -1,0 +1,301 @@
+<!-- 
+    This site is not entirely homemade, 
+    I take a little from the indoxploit site, 
+    Thank you indoxploit,
+    https://indoxploit.or.id/
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doo</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/wow/css/animate.min.css">
+</head>
+<body>
+    <section class="profile-banner" id="home">
+        <div class="bubble-set">
+            <div class="bubble-lg"></div>
+            <div class="bubble-md"></div>
+            <div class="bubble-sm"></div>
+        </div>
+          <audio autoplay loop>
+            <source src="assets/music/lil-boom-already-dead.mp3" type="audio/mpeg">
+          </audio>
+        <header class="header">
+            <nav class="navbar navbar-expand-md" id="mainNav">
+                <!--logo-->
+                <a class="navbar-brand mr-5" href="">
+                    wahyu Pi
+                </a>
+                <!--logo-->
+                <!--responsive toggle icon-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </button>
+                <!--responsive toggle icon-->
+                <!--nav link-->
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link scroll no-border active home" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll no-border about" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll no-border" href="#skills">My Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll no-border" href="#team">My Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll no-border" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--nav link-->
+            </nav>
+        </header>
+        <div id="particles-js"></div>
+        <div class="profile-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 wow zoomIn" data-wow-delay=".6s">
+                        <img src="assets/img/profile.png" class="banner-img">
+                    </div>
+                    <div class="col-lg-9 col-md-12">
+                        <h1 class="profile-title wow fadeInUp" data-wow-delay=".2s">
+                            Doo.
+                        </h1>
+                        <p class="profile-sub-title wow fadeInUp" data-wow-delay=".3s">
+                            Web Profile | Just Gabout | Indonesia Region   
+                        </p>
+                        <p class="profile-sub-title wow fadeInUp" data-wow-delay=".3s">
+                            "keep getting up and running again even though the world always knocks you down" 
+
+                            ~ Doo   
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-footer" style="background-image: url('assets/img/banner-curve-dark.png');"></div>
+    </section>
+
+    <section id="about" class="bg-dark pb-9">
+        <div class="container pb-9">
+            <h1 class="text-center profile-title text-shadow pt-9 pb-9 wow fadeInUp" data-wow-offset="10"
+                    data-wow-delay=".4s">About
+                    Me</h1>
+            <div class="row pt-3">
+                <div class="col-md-5 mt-3">
+                    <table class="table table-profile table-responsive text-light wow fadeInUp" data-wow-delay=".25s">
+                        <tbody>
+                            <tr>
+                                <td>Name:</td>
+                                <td>Doo</td>
+                            </tr>
+                            <tr>
+                                <td>Place of Birth:</td>
+                                <td>Banjarmasin, Indonesia</td>
+                            </tr>
+                            <tr>
+                                <td>Date of Birth:</td>
+                                <td>11 Juli 2005</td>
+                            </tr>
+                            <tr>
+                                <td>Gender:</td>
+                                <td>Male</td>
+                            </tr>
+                            <tr>
+                                <td>Religion:</td>
+                                <td>Islam</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-7 mt-3">
+                 <h5 class="wow fadeInUp" data-wow-offset="10" data-wow-delay=".4s">Hi, Welcome to my profile!</h5>
+                    <p class="wow fadeInDown" data-wow-offset="10" data-wow-delay=".4s">Introduce my name is Muhammad Ridho , I am 16
+                        years old, I am still a high school student, I am a geeky kid who loves computers, even though I am a science student without any IT lessons, I am very determined to surpass them. because I believe that "nothing is impossible."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-dark-gradient pb-9">
+        <div class="container pb-9">
+            <h1 class="text-center profile-title text-shadow wow fadeInUp pb-4 pt-9" data-wow-offset="10"
+                data-wow-delay=".25s">My Skills</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-4 mt-4 wow zoomIn" data-wow-offset="10" data-wow-delay=".4s">
+                            <h5 class="text-green-gradient">Multimedia</h5>
+                            <hr>
+                            <h6 class="mt-4">Photography</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-green-gradient" role="progressbar" style="width: 90%" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6 class="mt-4">Cinematography</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:50%" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <h6 class="mt-4">2D Animation</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:80%" aria-valuenow="68" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <h6 class="mt-4">3D Animation</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:80%" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <h6 class="mt-4">Editing</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:80%" aria-valuenow="85" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4 wow zoomIn" data-wow-offset="10" data-wow-delay=".4s">
+                            <h5 class="text-green-gradient">Content Creator</h5>
+                            <hr>
+                            <h6 class="mt-4">YouTube</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:30%" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <h5 class="text-green-gradient mt-4">Web Security Pentest</h5>
+                            <hr>
+                            <h6 class="mt-4">SQL Injection</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-green-gradient" role="progressbar" style="width:90%" aria-valuenow="65"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6 class="mt-4">XSS cross site scripting</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:50%" aria-valuenow="50"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow zoomIn" data-wow-offset="10" data-wow-delay=".4s">
+                            <h5 class="text-green-gradient mt-4">Programming</h5>
+                            <hr>
+                            <h6 class="mt-4">PHP</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-green-gradient" role="progressbar" style="width:70%" aria-valuenow="50"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h5 class="text-green-gradient mt-4">Android</h5>
+                            <hr>
+                            <h6 class="mt-4">Tweaking</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width:80%" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            <h6 class="mt-4">Troubleshooting</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:50%" aria-valuenow="70" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mt-4 wow zoomIn" data-wow-offset="10" data-wow-delay=".4s">
+                            <h5 class="text-green-gradient">Martial arts</h5>
+                            <hr>
+                            <h6 class="mt-4">Komputer</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-green-gradient" role="progressbar" style="width: 90%" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 wow fadeInUp" data-wow-offset="10" data-wow-delay=".4s">
+                    <img src="assets/img/skill.png" class="img-thumbnail no-border pt-3 skill" style="background: transparent;" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="bg-gradient-primary pb-9">
+        <div class="container pb-5 mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="mt-5 text-center">
+                        <center><img src="assets/img/smith.png" alt="" width="380" height="240" class="wow fadeInDown" data-wow-offset="10"
+                                data-wow-delay=".4s"></center>
+                        <h1 class="profile-text text-shadow wow fadeInLeft" data-wow-offset="10" data-wow-delay=".4s">{ Ravz } | Secrete name</h1>
+                        <div class="row justify-content-center wow fadeInRight" data-wow-offset="10" data-wow-delay=".4s">
+                            <div class="col-md-9">
+                                <p class="text-center">Ravz Name Secrete Roleplayer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center wow fadeInUp" data-wow-offset="10" data-wow-delay=".4s">
+                <div class="col-md-4">
+                    <div class="card bg-transparent no-border social-media">
+                        <div class="card-body text-center">
+                            <a href="http://www.instagram.com/-" target="_blank" class="btn btn-dark btn-social-media"><i class="fab fa-instagram"></i></a>
+                            <a href="http://-" target="_blank" class="btn btn-dark btn-social-media"><i class="fas fa-globe-asia"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-dark-gradient pb-12">
+        <div class="container pb-12">
+            <h1 class="text-center profile-title text-shadow pt-9 wow fadeInDown" data-wow-offset="10"
+                                data-wow-delay=".4s">Contact</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-5 discussion-banner">
+                    <img src="assets/img/diskusi.png" alt="" class="img-fluid wow zoomIn" width="500" height="450">
+                </div>
+                <div class="col-md-7 pt-4">
+                    <h5 class="text-purple wow fadeInUp" data-wow-offset="10"
+                                data-wow-delay=".4s">Do you have a problem?</h5>
+                    <p class="wow fadeInUp" data-wow-offset="10"
+                                data-wow-delay=".4s">if you have a problem, you can join my community Doo to have a discussion together, or you can contact me
+                                below, Insya Allah, I can help</p>
+                    <a href="https://www.facebook.com/-" target="_blank" data-wow-offset="10" data-wow-delay=".4s"
+                        class="btn btn-lg btn-block btn-dark wow fadeInUp"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/-" target="_blank" data-wow-offset="10" data-wow-delay=".4s"
+                        class="btn btn-lg btn-block btn-dark wow fadeInUp"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/-" target="_blank" data-wow-offset="10" data-wow-delay=".4s"
+                        class="btn btn-lg btn-block btn-dark wow fadeInUp"><i class="fab fa-youtube"></i></a>
+                    <a href="mailto:cilbosswp1234@gmail.com" target="_blank" data-wow-offset="10" data-wow-delay=".4s"
+                        class="btn btn-lg btn-block btn-dark wow fadeInUp"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/Cilbosswp" target="_blank" data-wow-offset="10" data-wow-delay=".4s"
+                        class="btn btn-lg btn-block btn-dark wow fadeInUp"><i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark-gradient pt-4 pb-4">
+        <h5 class="text-center wow fadeInUp" data-wow-offset="10" data-wow-delay=".4s">Copyright &copy; 2019 - wahyu Pi </h5>
+    </footer>
+
+<script src="assets/js/jquery-3.4.1.min.js"></script>
+<script src="assets/vendor/fontawesome-free/js/all.min.js"></script>
+<script src="assets/vendor/particlesjs/js/particles.min.js"></script>
+<script src="assets/vendor/wow/js/wow.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.easing.1.3.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
